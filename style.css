@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.destination {
+    
+}
+
+.recon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recon img {
+    
+}
+
+.recon div {
+    height: 300px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+    display: flex;
+}
+
+.subscribe {
+    height: 128px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 64px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
