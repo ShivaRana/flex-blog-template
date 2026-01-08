@@ -2,26 +2,71 @@
     margin: 0;
 }
 
-.destination {
-    
-}
-
-.recon {
+.header {
+    height: 32px;
+    background-color:cadetblue;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.recon img {
-    
+.header > div {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.recon div {
-    height: 300px;
-    width: 200px;
-    background-color: red;
-    margin: 10px;
+.nav {
+    height: 64px;
+    background-color:steelblue;
     display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.nav > div {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    width: 150px;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview {
+    height: 500px;
+    background: url("assets/Great\ Wall\ CH.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview > div {
+    height:100px;
+    width: 300px;
+    padding: 10px;
+    background-color:lightslategray;
+    border-radius: 10px;
+    opacity: 0.;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.recommendation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recon {
+    width: 1024px;
 }
 
 .subscribe {
