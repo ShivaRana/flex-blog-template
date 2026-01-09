@@ -30,7 +30,7 @@
     justify-content: space-between;
 }
 
-ul {
+.nav > div > ul {
     width: 150px;
     list-style: none;
     color: white;
@@ -59,14 +59,91 @@ ul {
     justify-content:space-around;
 }
 
-.recommendation {
+.hr-overview {
+    width:90%;
+    text-align:center;
+}
+
+.section-posts {
+    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.latest-posts {
+    width: 1024px;
+    height: auto;
+}
+
+.posts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post{
+    width: 70%;
+}
+
+.post > div {
+     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.img-post {
+    height: auto;
+    max-width: 200px;
+}
+
+.read-by {
+    width: 30%;
+}
+
+.read-by > div {
+    background-color:chocolate;
+    border-radius: 10px;
+}
+
+.recommendation {
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .recon {
     width: 1024px;
+}
+
+.destiny {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.destiny > div {
+    height: auto;
+    width: 240px;
+}
+
+.img-destiny {
+    height: auto;
+    max-width: 100%;
+}
+
+span {
+    width: 100%;
+    border: 1px solid;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .subscribe {
