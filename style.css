@@ -16,6 +16,10 @@
     justify-content: space-between;
 }
 
+.icon > i {
+    padding-left: 10px;
+}
+
 .nav {
     height: 64px;
     background-color:steelblue;
@@ -41,6 +45,7 @@
 .overview {
     height: 500px;
     background: url("assets/Great\ Wall\ CH.jpg");
+    object-fit:fill;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,9 +55,12 @@
     height:100px;
     width: 300px;
     padding: 10px;
-    background-color:lightslategray;
+    color: white;
+    /* background-color:lightslategray; */
+    /* background-color: #6DA5E0; */
+    background-color: #8CB2E1;
     border-radius: 10px;
-    opacity: 0.;
+    opacity: 0.8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,27 +84,54 @@
     height: auto;
 }
 
-.posts {
+.latest-posts > h3 {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.latest-posts > hr {
+    margin-bottom: 10px;
+}
+
+.posts-div {
     width: 100%;
     height: auto;
+    margin-top: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
-.post{
+.posts{
     width: 70%;
-}
+    }
 
-.post > div {
-     width: 100%;
+.posts > div {
+    width: 100%;
     height: auto;
+    margin-bottom: 10px;
+    background-color:darkgray;
     display: flex;
     flex-direction: row !important;
 }
 
-.img-post {
+.post {
+    padding: 10px;
+}
+
+.post-img {
     height: auto;
     max-width: 200px;
+    margin-right: 10px;
+}
+.calendar {
+    margin-bottom: 10px;
+}
+
+.span-post {
+    margin-top: 24px;
+    height: 24px;
+    width: 100px;
+    border-radius: 5px;
 }
 
 .read-by {
@@ -115,9 +150,17 @@
     justify-content: center;
 }
 
-
 .recon {
     width: 1024px;
+}
+
+.recon > h3 {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.recon > hr {
+    margin-bottom: 10px;
 }
 
 .destiny {
