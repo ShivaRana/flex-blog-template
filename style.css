@@ -16,8 +16,32 @@
     justify-content: space-between;
 }
 
-.icon > i {
+.welcome {
+    padding: 5px;
+    color: #FAF8F5;
+}
+
+.social > ul {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social > ul > li {
+    list-style: none;
     padding-left: 10px;
+}
+
+.social-img {
+    height: 20px;
+    width: 20px;
+}
+
+.logo {
+    height: 45px;
+    width: 45px;
+    padding-left: 20px;
 }
 
 .nav {
@@ -34,12 +58,19 @@
     justify-content: space-between;
 }
 
-.nav > div > ul {
-    width: 150px;
+.ul-nav {
+    width: 170px;
+    padding-top: 15px;
+    font-size: large;
     list-style: none;
     color: white;
     display: flex;
     justify-content: space-between;
+}
+
+.ul-nav > li > a {
+    color: white;
+    text-decoration: none;
 }
 
 .overview {
@@ -74,7 +105,8 @@
 }
 
 .posts-section {
-    background-color: brown;
+    height: auto;
+    background-color:#3DA5DB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,12 +114,13 @@
 
 .posts-latest {
     width: 1024px;
-    height: auto;
+    height: 100%;
 }
 
 .posts-latest > h3 {
     margin-top: 32px;
     margin-bottom: 10px;
+    color: #FAF8F5;
 }
 
 .posts-latest > hr {
@@ -106,17 +139,14 @@
     width: 70%;
     }
 
-.posts > div {
-    width: 100%;
+.post {
     height: auto;
+    width: 100%;
+    padding: 10px;
     margin-bottom: 10px;
-    background-color:darkgray;
+    background-color:#8BB8EB;
     display: flex;
     flex-direction: row;
-}
-
-.post {
-    padding: 10px;
     border-radius: 5px;
 }
 
@@ -140,7 +170,7 @@
     height: 24px;
     width: 100px;
     color:black;
-    background-color:darkseagreen;
+    background-color:#5BB4DC;
     text-decoration: none;
     border: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -155,7 +185,6 @@
 }
 
 .read-by > div {
-    background-color:chocolate;
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -163,6 +192,14 @@
 
 .read-by > div > ul {
     margin-top: 10px;
+}
+
+.read-by-country {
+    background-color: #74B7DB;
+}
+
+.read-by-date {
+    background-color: #5BB4DC;
 }
 
 .recommendation {
@@ -218,7 +255,7 @@
     width: 100%;
 }
 
-.more-destination {
+.more-detail {
     height: 24px;
     width: 100%;
     margin-top: 16px;
@@ -228,7 +265,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: darkseagreen;
+    background-color: #5BB4DC;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,6 +301,7 @@ button {
     height: 64px;
     background-color: #526AEB;
     color: white;
+    font-size: small;
     display: flex;
     align-items: center;
     justify-content: center;
