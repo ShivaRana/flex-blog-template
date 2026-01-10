@@ -45,7 +45,7 @@
 .overview {
     height: 500px;
     width: auto;
-    background-image: url("assets/Great\ Wall\ CH.jpg");
+    background-image: url("assets/mt-everest-NPL.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@
     height:100px;
     width: 300px;
     padding: 10px;
-    color: white;
+    color:white;
     background-color: #8CB2E1;
     border-radius: 10px;
     opacity: 0.8;
@@ -167,6 +167,7 @@
 
 .recommendation {
     margin-bottom: 24px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,14 +194,13 @@
 }
 
 .destiny > div {
-    height: auto;
-    width: 240px;
+    height: 390px;
+    width: 24%;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-destiny {
-    height: auto;
     max-width: 100%;
 }
 
@@ -213,14 +213,22 @@
     margin-bottom: 10px;
 }
 
-span {
+.description {
+    height: 90px;
+    width: 100%;
+}
+
+.more-destination {
     height: 24px;
     width: 100%;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: cadetblue;
+    background-color: darkseagreen;
     display: flex;
     align-items: center;
     justify-content: center;
